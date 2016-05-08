@@ -1,0 +1,4 @@
+from pyAudioAnalysis import audioTrainTest as aT
+
+aT.featureAndTrain(["/home/dexter/Desktop/ST/pyAudioAnalysis/data/Train-Tutorials/BG-Noise/","/home/dexter/Desktop/ST/pyAudioAnalysis/data/Train-Tutorials/High-Volume/", "/home/dexter/Desktop/ST/pyAudioAnalysis/data/Train-Tutorials/Low-Volume/", "/home/dexter/Desktop/ST/pyAudioAnalysis/data/Train-Tutorials/Normal-Volume/"], 1.0, 1.0, aT.shortTermWindow, aT.shortTermStep, "svm", "svmTutorialGenre0", True)
+aT.featureAndTrain(["/home/dexter/Desktop/ST/pyAudioAnalysis/data/Train-Tutorials/BG-Noise/","/home/dexter/Desktop/ST/pyAudioAnalysis/data/Train-Tutorials/High-Volume/", "/home/dexter/Desktop/ST/pyAudioAnalysis/data/Train-Tutorials/Low-Volume/", "/home/dexter/Desktop/ST/pyAudioAnalysis/data/Train-Tutorials/Normal-Volume/"], 1.0, 1.0, aT.shortTermWindow, aT.shortTermStep, "knn", "knnTutorialGenre0", True)

@@ -1,0 +1,5 @@
+We have used 2 classifiers SVM and KNN.
+To start run run.sh script, it already contain trained classifier so no need of training, if u want to train again, comment out line in run.sh and run again to execute main.py
+pyAudioAnalysis contain other lower level files for audioAnalysis, feature extraction and trainAndTest etc. It also contains data folder which further contains training and testing audio folders
+
+NOTE: I have removed the data folder for now as, file size being in GB, it could not be submitted by moodle , which has 50 MB limit.
